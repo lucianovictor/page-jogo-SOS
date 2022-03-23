@@ -20,4 +20,8 @@
       max-width: var(--max-width);
     }
   }
+
+  @media(max-width:1220px) {
+    padding: 0 2rem;
+  }
 }
