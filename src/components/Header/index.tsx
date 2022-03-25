@@ -32,8 +32,13 @@ export const Header = () => {
             <li>DEU</li>
           </ul>
         </div>
-        <img src="/icons/xbox.svg" alt="" />
-        <img src="/icons/steam.svg" alt="" />
+
+        <a href="/">
+          <img src="/icons/xbox.svg" alt="" />
+        </a>
+        <a href="/">
+          <img src="/icons/steam.svg" alt="" />
+        </a>
       </div>
     </header>
   )
