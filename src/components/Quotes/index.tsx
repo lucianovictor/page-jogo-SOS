@@ -28,7 +28,7 @@ const QUOTES_USERS = [
 ]
 
 export const Quotes = () => (
-  <section className="background quotes">
+  <section className="background quotes" id="section-quotes">
     <div className={styles.container}>
       <div className={styles.content}>
         <h3>What people think?</h3>
