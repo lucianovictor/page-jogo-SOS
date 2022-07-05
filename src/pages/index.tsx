@@ -5,6 +5,7 @@ import { Banner } from 'components/Banner'
 import { About } from 'components/AboutGame'
 
 import styles from 'styles/home.module.scss'
+import { Features } from 'components/Features'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Banner />
       </div>
       <About />
+      <Features />
     </div>
   )
 }
