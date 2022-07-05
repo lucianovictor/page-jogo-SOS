@@ -15,15 +15,38 @@ html {
 }
 
 :root {
-  --primary: #FFFF;
+  --primary: #FFFFFF ;
   --secondary: #FFB548;
 
-  --font-bebas: 'Bebas Neue', sans-serif;
+  --font-bebas: 'Bebas Neue';
 
   --main-width: 1200px;
 }
 
-body, button, textarea, input {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #080A0B;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 0.2rem;
+  }
+  /* Track */
+  &::-webkit-scrollbar-tracke {
+    background: transparent;
+    border-radius: 0.25rem;
+  }
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+    border-radius: 0.375rem;
+  }
+}
+
+ body, button, textarea, input {
   color: var(--primary);
   font: 400 1rem "Open Sans", sans-serif;
 }
@@ -57,6 +80,8 @@ h2 {
 h3 {
   font-size: 1.5rem;
 }
+
+
 .background {
   display: flex;
   width: 100%;
