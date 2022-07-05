@@ -8,6 +8,7 @@ import { SystemRequirements } from 'components/ SystemRequirement'
 import { Quotes } from 'components/Quotes'
 
 import styles from 'styles/home.module.scss'
+import { Newsletter } from 'components/Newsletter'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Features />
       <SystemRequirements />
       <Quotes />
+      <Newsletter />
     </div>
   )
 }
