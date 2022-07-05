@@ -17,7 +17,7 @@ export default function Home() {
       <Head>
         <title>NextJS Boilerplate</title>
       </Head>
-      <div className={styles.background}>
+      <div className={'background banner '.concat(styles.background)}>
         <Header />
         <Banner />
       </div>
