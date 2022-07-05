@@ -3,10 +3,11 @@ import Head from 'next/head'
 import { Header } from 'components/Header'
 import { Banner } from 'components/Banner'
 import { About } from 'components/AboutGame'
-
-import styles from 'styles/home.module.scss'
 import { Features } from 'components/Features'
 import { SystemRequirements } from 'components/ SystemRequirement'
+import { Quotes } from 'components/Quotes'
+
+import styles from 'styles/home.module.scss'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <About />
       <Features />
       <SystemRequirements />
+      <Quotes />
     </div>
   )
 }
