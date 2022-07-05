@@ -6,6 +6,7 @@ import { About } from 'components/AboutGame'
 
 import styles from 'styles/home.module.scss'
 import { Features } from 'components/Features'
+import { SystemRequirements } from 'components/ SystemRequirement'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       </div>
       <About />
       <Features />
+      <SystemRequirements />
     </div>
   )
 }
