@@ -19,7 +19,7 @@ export default function Home() {
         <FaCaretUp />
       </a>
       <Head>
-        <title>NextJS Boilerplate</title>
+        <title>Game SOS</title>
       </Head>
       <div className={'background banner '.concat(styles.background)}>
         <Header />
