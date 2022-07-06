@@ -8,7 +8,7 @@
 
   header, footer {
     width: 100%;
-    max-width: var(--max-width);
+    max-width: var(--main-width);
   }
 
   section {
@@ -18,14 +18,17 @@
     > div {
       margin: 0 auto;
       width: 100%;
-      max-width: var(--max-width);
+      max-width: var(--main-width);
     }
   }
 
-  @media(max-width:1220px) {
-    padding: 0 2rem;
+  @media(max-width: 1200px) {
+    header {
+      padding: 1rem 2rem 0;
+    }
   }
 }
+
 .background {
   flex-direction: column;
   align-items: center;
