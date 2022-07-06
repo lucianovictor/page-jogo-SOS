@@ -3,9 +3,9 @@ import { FaChevronDown } from 'react-icons/fa'
 
 import styles from './styles.module.scss'
 
-type Language = 'eng' | 'rus' | 'fra' | 'deu' | 'pt-br'
+type Language = 'eng' | 'rus' | 'fra' | 'deu' | 'br'
 
-const LANGUAGES: Language[] = ['eng', 'rus', 'fra', 'deu', 'pt-br']
+const LANGUAGES: Language[] = ['eng', 'rus', 'fra', 'deu', 'br']
 
 export const Header = () => {
   const [activeLanguage, setActiveLanguage] = useState<Language>('eng')
@@ -24,19 +24,19 @@ export const Header = () => {
 
       <nav className={styles.navigation}>
         <ul className={activeToggle ? styles.active : ''}>
-          <li>
+          <li onClick={() => setActiveToggle(false)}>
             <a href="">MAIN</a>
           </li>
-          <li>
+          <li onClick={() => setActiveToggle(false)}>
             <a href="#section-about">about</a>
           </li>
-          <li>
+          <li onClick={() => setActiveToggle(false)}>
             <a href="#section-features">game features</a>
           </li>
-          <li>
+          <li onClick={() => setActiveToggle(false)}>
             <a href="#section-system-requirements">System requirements</a>
           </li>
-          <li>
+          <li onClick={() => setActiveToggle(false)}>
             <a href="#section-quotes">quotes</a>
           </li>
         </ul>
