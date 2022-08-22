@@ -1,5 +1,5 @@
 <h1 align="center">
-  Live 06 Twitch: Landing Page SOS game
+  Landing Page SOS game
 </h1>
 
 
